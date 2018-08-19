@@ -1,1 +1,76 @@
+html {
+  font-size: 18px;
+}
 
+
+/* Header Styles */
+.site-container {
+  width: 960px;
+  margin: 0px auto;
+  font-family: Helvetica;
+}
+
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  background-color: black;
+  background-size: cover;
+}
+
+.logo img {
+  height: 1.5rem;
+  width: auto;
+  margin: 0px;
+  padding: 0.66rem 1rem 0.66rem 0.5rem;
+}
+
+.name {
+  font-size: 1rem;
+  align-self: center;
+  color: white;
+}
+
+.main-banner {
+  display: flex;
+  justify-content: flex-start;
+  height: 25rem;
+  background-image: url(https://87designer.github.io/SecretAgentSupply/resources/images/moto.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.new-arrival {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin-top: 9rem;
+  padding: 2rem 3rem;
+  width: 20rem;
+  height: 6rem;
+  background-color: black;
+}
+
+.new-1 {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+}
+
+.new-2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: firebrick;
+  padding: 0.75rem 0rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
