@@ -11,11 +11,6 @@ html {
   font-family: Helvetica;
 }
 
-.site-container {
-  display: flex;
-  justify-content: space-between;
-}
-
 .site-container a {
   color: white;
   text-decoration: none;
@@ -40,8 +35,8 @@ html {
 }
 
 .name {
-  font-size: 1rem;
   align-self: center;
+  font-size: 1rem;
   color: white;
 }
 
