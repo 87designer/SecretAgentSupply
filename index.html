@@ -26,24 +26,16 @@
         </div>
       </div>
       <nav>
-        <div class="site-container nav">
-          <div class="dropdown">
-            <button class="dropbtn">Menu</button>
-            <div class="dropdown-content">
-              <a href="#">Eyewear</a>
-              <a href="#">Apparel</a>
-              <a href="#">Gadgets</a>
-              <a href="#">Vehicles</a>
-              <a href="#">Classes</a>
-              <a href="#">Contact</a>
-            </div>
+        <div class="site-container">
+          <div class="topnav" id="myTopnav">
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">Menu</a>
+            <a class="hide" href="./eyewear.html">Eyewear</a>
+            <a class="hide" href="./apparel.html">Apparel</a>
+            <a class="hide" href="./gadgets.html">Gadgets</a>
+            <a class="hide" href="./vehicles.html">Vehicles</a>
+            <a class="hide" href="./classes.html">Classes</a>
+            <a class="hide" href="./contact.html">Contact</a>
           </div>
-          <a class="hide" href="./eyewear.html">Eyewear</a>
-          <a class="hide" href="./apparel.html">Apparel</a>
-          <a class="hide" href="./gadgets.html">Gadgets</a>
-          <a class="hide" href="./vehicles.html">Vehicles</a>
-          <a class="hide" href="./classes.html">Classes</a>
-          <a class="hide" href="./contact.html">Contact</a>
         </div>
       </nav>
     </header>
@@ -96,5 +88,15 @@
         <span>&copy; Secret Agent Supply Inc.</span>
       </div>
     </footer>
+    <script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
   </body>
 </html>
