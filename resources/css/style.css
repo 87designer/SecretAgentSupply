@@ -230,8 +230,8 @@ footer {
   }
 }
 
-@media@media only screen and (max-width: 1440px) {
-  /* screens smaller than 470px */
+@media only screen and (min-width: 360px) and (max-width: 767px) {
+  /* Samsung Galaxy S8 */
   .logo img {
     margin: auto;
   }
