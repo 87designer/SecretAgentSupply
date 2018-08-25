@@ -230,10 +230,7 @@ footer {
   }
 }
 
-@media screen and (device-width: 360px) 
-  and (device-height: 640px)
-  and (-webkit-device-pixel-ratio: 4)
-  and (orientation: portrait) {
+@media@media only screen and (max-width: 1440px) {
   /* screens smaller than 470px */
   .logo img {
     margin: auto;
